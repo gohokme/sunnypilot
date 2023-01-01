@@ -4,9 +4,9 @@ from common.conversions import Conversions as CV
 EventName = car.CarEvent.EventName
 HandsOnWheelState = log.DriverMonitoringState.HandsOnWheelState
 
-_PRE_ALERT_THRESHOLD = 150  # 15s
-_PROMPT_ALERT_THRESHOLD = 300  # 30s
-_TERMINAL_ALERT_THRESHOLD = 600  # 60s
+_PRE_ALERT_THRESHOLD = 80000  # 15s
+_PROMPT_ALERT_THRESHOLD = 80000  # 30s
+_TERMINAL_ALERT_THRESHOLD = 80000  # 60s
 
 _MIN_MONITORING_SPEED = 10 * CV.KPH_TO_MS  # No monitoring underd 10kph
 
